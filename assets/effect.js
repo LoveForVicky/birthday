@@ -42,13 +42,15 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
-	});
-
-	$('#bannar_coming').click(function(){
+		
 		$('.bannar').addClass('bannar-come');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
+	});
+
+	$('#bannar_coming').click(function(){
+		
 	});
 
 	function loopOne() {
